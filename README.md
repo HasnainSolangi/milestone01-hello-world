@@ -16,7 +16,7 @@ Develop a simple webpage that displays a personalized **"Hello World"** message 
 - **TypeScript**: For type-safe development.
 
 ## 📂 Folder Structure
-
+```
 ├── milestone01-hello-world/
 │   ├── node_modules/                # Contains all project dependencies installed via npm
 │   ├── public/                      # Directory for static assets (images, icons, etc.)
@@ -24,7 +24,7 @@ Develop a simple webpage that displays a personalized **"Hello World"** message 
 │   │   └── app/                     # Main application directory
 │   │       ├── fonts/               # Font files for the project
 |   |       ├── styles/              # Custom folder for global styles
-|   |           └── globals.css              # Global CSS file for styling across the app
+|   |           └── globals.css      # Global CSS file for styling across the app
 │   │       ├── favicon.ico          # Favicon for the website
 │   │       ├── layout.tsx           # Layout component, wrapping all pages
 │   │       └── page.tsx             # Main page file (homepage)
@@ -38,7 +38,7 @@ Develop a simple webpage that displays a personalized **"Hello World"** message 
 │   ├── README.md                    # Project documentation and setup instructions
 │   ├── tailwind.config.ts           # Configuration file for Tailwind CSS
 │   └── tsconfig.json                # TypeScript configuration file
-
+```
 ## In this structure:
 
 - The styles folder is custom-created, containing the globals.css file.
